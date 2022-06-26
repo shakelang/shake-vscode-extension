@@ -1,0 +1,25 @@
+{
+    "name": "shake-language-support",
+    "displayName": "Shake Language Support",
+    "description": "Visual Studio Code Language Support for Shake Programming Language",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.68.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "shake",
+            "aliases": ["Shake", "shake"],
+            "extensions": [".shake"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "shake",
+            "scopeName": "source.shake",
+            "path": "./syntaxes/shake.tmLanguage.json"
+        }]
+    }
+}

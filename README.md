@@ -1,2 +1,2 @@
-# shake-vscode-extension
-Extension for vscode to highlight shake
+# Shake Programming Language Support in Visual Studio Code
+
